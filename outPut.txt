@@ -1,0 +1,327 @@
+22-02-24 & 16-05-26
+User is able to click on Selected Partner Drop-down
+User is able to click on refresh Button
+Pop-up Text: Balance enquiry for ALLIED BANK LIMITED performed successfully !
+User is able to click on Accept the Pop_Up
+Vostro Balance for : ABLPAK-PKR is 500000.00
+threshold Balance for : ABLPAK-PKR is 500000
+BALANCE IS SUFFICIENT FOR ABLPAK-PKR
+==========*****TEST CASE PASSED FOR =>>ABLPAK-PKR
+ 
+22-02-24 & 16-05-29
+User is able to click on Partner Dropdown
+User is able to click on refresh Button 1
+Pop-up Text: Balance enquiry failed for ASIA UNITED BANK
+User is able to click on Accept the Pop_Up 1
+User is able to click on refresh Button 2
+Pop-up Text: Balance enquiry failed for ASIA UNITED BANK
+User is able to click on Accept the Pop_Up 2
+Vostro Balance for : AUB-USD is 675125739999999999.79
+Vostro Balance for : AUB-PHP is 675125739999999999.79
+threshold Balance for : AUB-USD is 500000
+threshold Balance for : AUB-PHP is 500000
+BALANCE IS SUFFICIENT FOR AUB-USD
+==========*****TEST CASE PASSED FOR ==>AUB-USD
+BALANCE IS SUFFICIENT FOR AUB-PHP
+==========*****TEST CASE PASSED FOR ==>AUB-PHP
+ 
+22-02-24 & 16-06-53
+User is able to click on Selected Partner Drop-down
+User is able to click on refresh Button
+Pop-up Text: Balance enquiry for ATTIJARIWAFA BANK performed successfully !
+User is able to click on Accept the Pop_Up
+Vostro Balance for : AJWB-MAD is 300000.00
+threshold Balance for : AJWB-MAD is 5000000
+BALANCE IS BELOW THRESHOLD BALANCE FOR AJWB-MAD
+==========*****TEST CASE FAILED FOR =>>AJWB-MAD
+
+22-02-24 & 16-06-55
+User is able to click on Selected Partner Drop-down
+User is able to click on refresh Button
+Pop-up Text: Balance enquiry for BANK AL HABIB LIMITED performed successfully !
+User is able to click on Accept the Pop_Up
+Vostro Balance for : BAHL-PKR is 5500000000000.00
+threshold Balance for : BAHL-PKR is 5000000
+BALANCE IS SUFFICIENT FOR BAHL-PKR
+==========*****TEST CASE PASSED FOR =>>BAHL-PKR
+ 
+22-02-24 & 16-06-57
+User is able to click on Partner Dropdown
+User is able to click on refresh Button 1
+Pop-up Text: Balance enquiry for BANK OF PHILIPPINES ISLANDS performed successfully !
+User is able to click on Accept the Pop_Up 1
+User is able to click on refresh Button 2
+Pop-up Text: Balance enquiry for BANK OF PHILIPPINES ISLANDS performed successfully !
+User is able to click on Accept the Pop_Up 2
+Vostro Balance for : BPI-PHP is 66000000000000000000.00
+Vostro Balance for : BPI-USD is 66000000000000000000.00
+threshold Balance for : BPI-PHP is 5000000
+threshold Balance for : BPI-USD is 5000000 
+BALANCE IS SUFFICIENT FOR BPI-PHP
+==========*****TEST CASE PASSED FOR ==>BPI-PHP
+REACHING NEAR TO THRESHOLD BALANCE PLEASE ADD BALANCE FOR BPI-USD
+==========*****TEST CASE PASSED FOR ==>BPI-USD
+ 
+22-02-24 & 16-07-00
+User is able to click on Partner Dropdown
+User is able to click on refresh Button 1
+Pop-up Text: Balance enquiry for BCA - Bank Central Asia performed successfully !
+User is able to click on Accept the Pop_Up 1
+User is able to click on refresh Button 2
+Pop-up Text: Balance enquiry for BCA - Bank Central Asia performed successfully !
+User is able to click on Accept the Pop_Up 2
+Vostro Balance for : BCA-IDR is 742786240277.97
+Vostro Balance for : BCA-USD is 142978051890.58
+threshold Balance for : BCA-IDR is 5000000
+threshold Balance for : BCA-USD is 50000
+BALANCE IS SUFFICIENT FOR BCA-IDR
+==========*****TEST CASE PASSED FOR ==>BCA-IDR
+BALANCE IS SUFFICIENT FOR BCA-USD
+==========*****TEST CASE PASSED FOR ==>BCA-USD
+ 
+22-02-24 & 16-07-04
+User is able to click on Partner Dropdown
+User is able to click on refresh Button 1
+Pop-up Text: Balance enquiry for Banco de Oro Unibank, Inc. performed successfully !
+User is able to click on Accept the Pop_Up 1
+User is able to click on refresh Button 2
+Pop-up Text: Balance enquiry for Banco de Oro Unibank, Inc. performed successfully !
+User is able to click on Accept the Pop_Up 2
+Vostro Balance for : BDO-PHP is 826433891.94
+Vostro Balance for : BDO-USD is 2333948.93
+threshold Balance for : BDO-PHP is 5000000
+threshold Balance for : BDO-USD is 50000
+BALANCE IS SUFFICIENT FOR BDO-PHP
+==========*****TEST CASE PASSED FOR ==>BDO-PHP
+BALANCE IS SUFFICIENT FOR BDO-USD
+==========*****TEST CASE PASSED FOR ==>BDO-USD
+ 
+22-02-24 & 16-07-08
+User is able to click on Selected Partner Drop-down
+User is able to click on refresh Button
+Pop-up Text: Balance enquiry for Bank Rakyat Indonesia performed successfully !
+User is able to click on Accept the Pop_Up
+Vostro Balance for : BRI-IDR is 126879489.55
+threshold Balance for : BRI-IDR is 5000000
+BALANCE IS SUFFICIENT FOR BRI-IDR
+==========*****TEST CASE PASSED FOR =>>BRI-IDR
+ 
+22-02-24 & 16-07-10
+User is able to click on Selected Partner Drop-down
+User is able to click on refresh Button
+Pop-up Text: Balance enquiry for Global IME Bank Ltd performed successfully !
+User is able to click on Accept the Pop_Up
+Vostro Balance for : GIBL-NPR is 700000000.00
+threshold Balance for : GIBL-NPR is 5000000
+BALANCE IS SUFFICIENT FOR GIBL-NPR
+==========*****TEST CASE PASSED FOR =>>GIBL-NPR
+ 
+22-02-24 & 16-07-11
+User is able to click on Selected Partner Drop-down
+User is able to click on refresh Button
+Pop-up Text: Balance enquiry for HABIB BANK LTD performed successfully !
+User is able to click on Accept the Pop_Up
+Vostro Balance for : HABIB-PKR is 50000000.00
+threshold Balance for : HABIB-PKR is 500000
+BALANCE IS SUFFICIENT FOR HABIB-PKR
+==========*****TEST CASE PASSED FOR =>>HABIB-PKR
+ 
+22-02-24 & 16-07-13
+User is able to click on Selected Partner Drop-down
+User is able to click on refresh Button
+Pop-up Text: Balance enquiry failed for HDFC Bank Ltd.
+User is able to click on Accept the Pop_Up
+Vostro Balance for : HDFC-INR is 1139591.03
+threshold Balance for : HDFC-INR is 5000000
+BALANCE IS BELOW THRESHOLD BALANCE FOR HDFC-INR
+==========*****TEST CASE FAILED FOR =>>HDFC-INR
+
+22-02-24 & 16-07-14
+User is able to click on Selected Partner Drop-down
+User is able to click on refresh Button
+Pop-up Text: Balance enquiry failed for HOUSING BANK FOR TRADE AND FINANCE
+User is able to click on Accept the Pop_Up
+Vostro Balance for : HBTF-JOD is 2220587.80
+threshold Balance for : HBTF-JOD is 500000
+BALANCE IS SUFFICIENT FOR HBTF-JOD
+==========*****TEST CASE PASSED FOR =>>HBTF-JOD
+ 
+22-02-24 & 16-07-16
+User is able to click on Selected Partner Drop-down
+User is able to click on refresh Button
+Pop-up Text: Balance enquiry failed for ICICI Bank Ltd.
+User is able to click on Accept the Pop_Up
+Vostro Balance for : ICICI-INR is 3300595808.14
+threshold Balance for : ICICI-INR is 0
+BALANCE IS SUFFICIENT FOR ICICI-INR
+==========*****TEST CASE PASSED FOR =>>ICICI-INR
+ 
+22-02-24 & 16-07-18
+User is able to click on Selected Partner Drop-down
+User is able to click on refresh Button
+Pop-up Text: Balance enquiry failed for Islami Bank Bangladesh Limited
+User is able to click on Accept the Pop_Up
+Vostro Balance for : IBBL-BDT is 600000.78
+threshold Balance for : IBBL-BDT is 500000
+BALANCE IS SUFFICIENT FOR IBBL-BDT
+==========*****TEST CASE PASSED FOR =>>IBBL-BDT
+ 
+22-02-24 & 16-07-19
+User is able to click on Selected Partner Drop-down
+User is able to click on refresh Button
+Pop-up Text: Balance enquiry failed for JANATA BANK LTD
+User is able to click on Accept the Pop_Up
+Vostro Balance for : JBL-BDT is 2331741.66
+threshold Balance for : JBL-BDT is 5000000
+BALANCE IS BELOW THRESHOLD BALANCE FOR JBL-BDT
+==========*****TEST CASE FAILED FOR =>>JBL-BDT
+
+22-02-24 & 16-07-21
+User is able to click on Partner Dropdown
+User is able to click on refresh Button 1
+Pop-up Text: Balance enquiry is not available for Metropolitan Bank and Trust Company
+User is able to click on Accept the Pop_Up 1
+User is able to click on refresh Button 2
+Pop-up Text: Balance enquiry is not available for Metropolitan Bank and Trust Company
+User is able to click on Accept the Pop_Up 2
+Vostro Balance for : MBTC-PHP is 124234233.00
+Vostro Balance for : MBTC-USD is 124234233.00
+threshold Balance for : MBTC-PHP is 5000000	
+threshold Balance for : MBTC-USD is 50000
+BALANCE IS SUFFICIENT FOR MBTC-PHP
+==========*****TEST CASE PASSED FOR ==>MBTC-PHP
+BALANCE IS SUFFICIENT FOR MBTC-USD
+==========*****TEST CASE PASSED FOR ==>MBTC-USD
+ 
+22-02-24 & 16-07-23
+User is able to click on Selected Partner Drop-down
+User is able to click on refresh Button
+Pop-up Text: Balance enquiry failed for Muslim Commercial Bank Ltd.
+User is able to click on Accept the Pop_Up
+Vostro Balance for : MCB-PKR is 1107899596.877
+threshold Balance for : MCB-PKR is 500000
+BALANCE IS SUFFICIENT FOR MCB-PKR
+==========*****TEST CASE PASSED FOR =>>MCB-PKR
+ 
+22-02-24 & 16-07-25
+User is able to click on Partner Dropdown
+User is able to click on refresh Button 1
+Pop-up Text: Balance enquiry for PT BANK NEGARA INDONESIA TBK performed successfully !
+User is able to click on Accept the Pop_Up 1
+User is able to click on refresh Button 2
+Pop-up Text: Balance enquiry for PT BANK NEGARA INDONESIA TBK performed successfully !
+User is able to click on Accept the Pop_Up 2
+Vostro Balance for : BNI-USD is 1565075873.00
+Vostro Balance for : BNI-IDR is 85528.23
+threshold Balance for : BNI-USD is 5000
+threshold Balance for : BNI-IDR is 5000
+BALANCE IS SUFFICIENT FOR BNI-USD
+==========*****TEST CASE PASSED FOR ==>BNI-USD
+BALANCE IS SUFFICIENT FOR BNI-IDR
+==========*****TEST CASE PASSED FOR ==>BNI-IDR
+ 
+22-02-24 & 16-07-31
+User is able to click on Selected Partner Drop-down
+User is able to click on refresh Button
+Pop-up Text: Balance enquiry is not available for People's Bank
+User is able to click on Accept the Pop_Up
+Vostro Balance for : PB-LKR is 0.00
+threshold Balance for : PB-LKR is 500000
+BALANCE IS BELOW THRESHOLD BALANCE FOR PB-LKR
+==========*****TEST CASE FAILED FOR =>>PB-LKR
+
+22-02-24 & 16-07-32
+User is able to click on Partner Dropdown
+User is able to click on refresh Button 1
+Pop-up Text: Balance enquiry is not available for Philippine National Bank
+User is able to click on Accept the Pop_Up 1
+User is able to click on refresh Button 2
+Pop-up Text: Balance enquiry is not available for Philippine National Bank
+User is able to click on Accept the Pop_Up 2
+Vostro Balance for : PNB-PHP is 0.00
+Vostro Balance for : PNB-USD is 0.00
+threshold Balance for : PNB-PHP is 5000000
+threshold Balance for : PNB-USD is 50000
+BALANCE IS BELOW THRESHOLD BALANCE FOR PNB-PHP
+==========*****TEST CASE FAILED FOR ==>PNB-PHP
+BALANCE IS BELOW THRESHOLD BALANCE FOR PNB-USD
+==========*****TEST CASE FAILED FOR ==>PNB-USD
+
+ 
+22-02-24 & 16-07-34
+User is able to click on Partner Dropdown
+User is able to click on refresh Button 1
+Pop-up Text: Balance enquiry for SAMPATH BANK PLC performed successfully !
+User is able to click on Accept the Pop_Up 1
+User is able to click on refresh Button 2
+Pop-up Text: Balance enquiry for SAMPATH BANK PLC performed successfully !
+User is able to click on Accept the Pop_Up 2
+Vostro Balance for : SAMPATH-LKR is 99999999999990000000000000000000000.00
+Vostro Balance for : SAMPATH-USD is 99999999999990000000000000000000000.00
+threshold Balance for : SAMPATH-LKR is 9999999999999
+threshold Balance for : SAMPATH-USD is 9999999999999
+BALANCE IS SUFFICIENT FOR SAMPATH-LKR
+==========*****TEST CASE PASSED FOR ==>SAMPATH-LKR
+BALANCE IS SUFFICIENT FOR SAMPATH-USD
+==========*****TEST CASE PASSED FOR ==>SAMPATH-USD
+ 
+22-02-24 & 16-07-37
+User is able to click on Selected Partner Drop-down
+User is able to click on refresh Button
+Pop-up Text: Balance enquiry for SONALI BANK LTD performed successfully !
+User is able to click on Accept the Pop_Up
+Vostro Balance for : SBL-BDT is 12323213.00
+threshold Balance for : SBL-BDT is 5000000
+BALANCE IS SUFFICIENT FOR SBL-BDT
+==========*****TEST CASE PASSED FOR =>>SBL-BDT
+ 
+22-02-24 & 16-07-38
+User is able to click on Selected Partner Drop-down
+User is able to click on refresh Button
+Pop-up Text: Balance enquiry is not available for SOUTHEAST BANK LTD
+User is able to click on Accept the Pop_Up
+Vostro Balance for : SEBL-BDT is 0.00
+threshold Balance for : SEBL-BDT is 500000
+BALANCE IS BELOW THRESHOLD BALANCE FOR SEBL-BDT
+==========*****TEST CASE FAILED FOR =>>SEBL-BDT
+
+22-02-24 & 16-07-40
+User is able to click on Selected Partner Drop-down
+User is able to click on refresh Button
+Pop-up Text: Balance enquiry failed for State Bank Of India
+User is able to click on Accept the Pop_Up
+Vostro Balance for : SBI-INR is 359.98
+threshold Balance for : SBI-INR is 1
+BALANCE IS SUFFICIENT FOR SBI-INR
+==========*****TEST CASE PASSED FOR =>>SBI-INR
+ 
+22-02-24 & 16-08-17
+User is able to click on Selected Partner Drop-down
+User is able to click on refresh Button
+Pop-up Text: Balance enquiry for THE FEDERAL BANK LIMITED performed successfully !
+User is able to click on Accept the Pop_Up
+Vostro Balance for : FBL-INR is 1001988721210.20
+threshold Balance for : FBL-INR is 5000000
+BALANCE IS SUFFICIENT FOR FBL-INR
+==========*****TEST CASE PASSED FOR =>>FBL-INR
+ 
+22-02-24 & 16-08-21
+User is able to click on Selected Partner Drop-down
+User is able to click on refresh Button
+Pop-up Text: Balance enquiry for United Bank Limited performed successfully !
+User is able to click on Accept the Pop_Up
+Vostro Balance for : UBL-PKR is 147738762.00
+threshold Balance for : UBL-PKR is 5000
+BALANCE IS SUFFICIENT FOR UBL-PKR
+==========*****TEST CASE PASSED FOR =>>UBL-PKR
+ 
+22-02-24 & 16-08-22
+User is able to click on Selected Partner Drop-down
+User is able to click on refresh Button
+Pop-up Text: Balance enquiry failed for PT BANK MANDIRI (PERSERO) TBK
+User is able to click on Accept the Pop_Up
+Vostro Balance for : BM-IDR is 81033230851.90
+threshold Balance for : BM-IDR is 5000000
+BALANCE IS SUFFICIENT FOR BM-IDR
+==========*****TEST CASE PASSED FOR =>>BM-IDR
+ 

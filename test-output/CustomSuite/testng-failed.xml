@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CustomSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CustomTest(failed)">
+    <classes>
+      <class name="ABase_Class.ANewParentClass">
+        <methods>
+          <include name="setUp"/>
+          <include name="testBPI"/>
+          <include name="closeConnection"/>
+        </methods>
+      </class> <!-- ABase_Class.ANewParentClass -->
+    </classes>
+  </test> <!-- CustomTest(failed) -->
+</suite> <!-- Failed suite [CustomSuite] -->

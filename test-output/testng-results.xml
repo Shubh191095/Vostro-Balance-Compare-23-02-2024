@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="21" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-22T16:05:13 IST" name="Default suite" finished-at="2024-02-22T16:09:17 IST" duration-ms="243984">
+    <groups>
+    </groups>
+    <test started-at="2024-02-22T16:05:13 IST" name="Default test" finished-at="2024-02-22T16:09:17 IST" duration-ms="243984">
+      <class name="ABase_Class.ANewParentClass">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:05:13 IST" name="setUp" finished-at="2024-02-22T16:05:26 IST" duration-ms="13614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testABLPAK()[pri:-27, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:05:26 IST" name="testABLPAK" finished-at="2024-02-22T16:05:29 IST" duration-ms="2332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testABLPAK -->
+        <test-method signature="testAUB()[pri:-26, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:05:29 IST" name="testAUB" finished-at="2024-02-22T16:06:53 IST" duration-ms="84053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAUB -->
+        <test-method signature="testAJWB()[pri:-25, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:06:53 IST" name="testAJWB" finished-at="2024-02-22T16:06:55 IST" duration-ms="2568" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[TEST CASE IS FAILED BEACOUSE BALANCE IS BELOW THRESHOLD BALANCE FOR AJWB-MAD]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: TEST CASE IS FAILED BEACOUSE BALANCE IS BELOW THRESHOLD BALANCE FOR AJWB-MAD
+at org.testng.Assert.fail(Assert.java:111)
+at ABase_Class.AAssistant.VostroCheckCompare(AAssistant.java:96)
+at ABase_Class.ANewParentClass.testAJWB(ANewParentClass.java:211)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAJWB -->
+        <test-method signature="testBAHL()[pri:-24, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:06:55 IST" name="testBAHL" finished-at="2024-02-22T16:06:57 IST" duration-ms="1568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBAHL -->
+        <test-method signature="testBPI()[pri:-23, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:06:57 IST" name="testBPI" finished-at="2024-02-22T16:07:00 IST" duration-ms="2732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBPI -->
+        <test-method signature="testBCA()[pri:-22, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:07:00 IST" name="testBCA" finished-at="2024-02-22T16:07:04 IST" duration-ms="4790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBCA -->
+        <test-method signature="testBDO()[pri:-21, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:07:04 IST" name="testBDO" finished-at="2024-02-22T16:07:08 IST" duration-ms="4064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBDO -->
+        <test-method signature="testBRI()[pri:-20, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:07:08 IST" name="testBRI" finished-at="2024-02-22T16:07:10 IST" duration-ms="1394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBRI -->
+        <test-method signature="testGIBL()[pri:-19, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:07:10 IST" name="testGIBL" finished-at="2024-02-22T16:07:11 IST" duration-ms="1398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGIBL -->
+        <test-method signature="testHABIB()[pri:-18, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:07:11 IST" name="testHABIB" finished-at="2024-02-22T16:07:13 IST" duration-ms="1370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHABIB -->
+        <test-method signature="testHDFC()[pri:-17, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:07:13 IST" name="testHDFC" finished-at="2024-02-22T16:07:14 IST" duration-ms="1478" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[TEST CASE IS FAILED BEACOUSE BALANCE IS BELOW THRESHOLD BALANCE FOR HDFC-INR]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: TEST CASE IS FAILED BEACOUSE BALANCE IS BELOW THRESHOLD BALANCE FOR HDFC-INR
+at org.testng.Assert.fail(Assert.java:111)
+at ABase_Class.AAssistant.VostroCheckCompare(AAssistant.java:96)
+at ABase_Class.ANewParentClass.testHDFC(ANewParentClass.java:483)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHDFC -->
+        <test-method signature="testHBTF()[pri:-16, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:07:14 IST" name="testHBTF" finished-at="2024-02-22T16:07:16 IST" duration-ms="1727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHBTF -->
+        <test-method signature="testICICI()[pri:-15, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:07:16 IST" name="testICICI" finished-at="2024-02-22T16:07:18 IST" duration-ms="1780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testICICI -->
+        <test-method signature="testIBBL()[pri:-14, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:07:18 IST" name="testIBBL" finished-at="2024-02-22T16:07:19 IST" duration-ms="1350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIBBL -->
+        <test-method signature="testJBL()[pri:-13, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:07:19 IST" name="testJBL" finished-at="2024-02-22T16:07:21 IST" duration-ms="1605" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[TEST CASE IS FAILED BEACOUSE BALANCE IS BELOW THRESHOLD BALANCE FOR JBL-BDT]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: TEST CASE IS FAILED BEACOUSE BALANCE IS BELOW THRESHOLD BALANCE FOR JBL-BDT
+at org.testng.Assert.fail(Assert.java:111)
+at ABase_Class.AAssistant.VostroCheckCompare(AAssistant.java:96)
+at ABase_Class.ANewParentClass.testJBL(ANewParentClass.java:614)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJBL -->
+        <test-method signature="testMBTC()[pri:-12, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:07:21 IST" name="testMBTC" finished-at="2024-02-22T16:07:23 IST" duration-ms="2507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMBTC -->
+        <test-method signature="testMCB()[pri:-11, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:07:23 IST" name="testMCB" finished-at="2024-02-22T16:07:25 IST" duration-ms="2051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMCB -->
+        <test-method signature="testBNI()[pri:-10, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:07:25 IST" name="testBNI" finished-at="2024-02-22T16:07:31 IST" duration-ms="5401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBNI -->
+        <test-method signature="testPB()[pri:-9, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:07:31 IST" name="testPB" finished-at="2024-02-22T16:07:32 IST" duration-ms="1340" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[TEST CASE IS FAILED BEACOUSE BALANCE IS BELOW THRESHOLD BALANCE FOR PB-LKR]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: TEST CASE IS FAILED BEACOUSE BALANCE IS BELOW THRESHOLD BALANCE FOR PB-LKR
+at org.testng.Assert.fail(Assert.java:111)
+at ABase_Class.AAssistant.VostroCheckCompare(AAssistant.java:96)
+at ABase_Class.ANewParentClass.testPB(ANewParentClass.java:751)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPB -->
+        <test-method signature="testPNB()[pri:-8, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:07:32 IST" name="testPNB" finished-at="2024-02-22T16:07:34 IST" duration-ms="2468" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[TEST CASE IS FAILED BECAUSE BALANCE IS BELOW THRESHOLD BALANCE FOR PNB-PHP, PNB-USD]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: TEST CASE IS FAILED BECAUSE BALANCE IS BELOW THRESHOLD BALANCE FOR PNB-PHP, PNB-USD
+at org.testng.Assert.fail(Assert.java:111)
+at ABase_Class.AAssistant.VostroCheckCompare2Currency(AAssistant.java:241)
+at ABase_Class.ANewParentClass.testPNB(ANewParentClass.java:788)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPNB -->
+        <test-method signature="testSAMPATH()[pri:-7, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:07:34 IST" name="testSAMPATH" finished-at="2024-02-22T16:07:37 IST" duration-ms="2631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSAMPATH -->
+        <test-method signature="testSBL()[pri:-6, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:07:37 IST" name="testSBL" finished-at="2024-02-22T16:07:38 IST" duration-ms="1463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSBL -->
+        <test-method signature="testSEBL()[pri:-5, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:07:38 IST" name="testSEBL" finished-at="2024-02-22T16:07:40 IST" duration-ms="1338" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[TEST CASE IS FAILED BEACOUSE BALANCE IS BELOW THRESHOLD BALANCE FOR SEBL-BDT]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: TEST CASE IS FAILED BEACOUSE BALANCE IS BELOW THRESHOLD BALANCE FOR SEBL-BDT
+at org.testng.Assert.fail(Assert.java:111)
+at ABase_Class.AAssistant.VostroCheckCompare(AAssistant.java:96)
+at ABase_Class.ANewParentClass.testSEBL(ANewParentClass.java:889)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSEBL -->
+        <test-method signature="testSBI()[pri:-4, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:07:40 IST" name="testSBI" finished-at="2024-02-22T16:08:17 IST" duration-ms="37615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSBI -->
+        <test-method signature="testFBL()[pri:-3, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:08:17 IST" name="testFBL" finished-at="2024-02-22T16:08:21 IST" duration-ms="3707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFBL -->
+        <test-method signature="testUBL()[pri:-2, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:08:21 IST" name="testUBL" finished-at="2024-02-22T16:08:22 IST" duration-ms="1369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUBL -->
+        <test-method signature="testBM()[pri:-1, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:08:22 IST" name="testBM" finished-at="2024-02-22T16:09:15 IST" duration-ms="52858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBM -->
+        <test-method is-config="true" signature="closeConnection()[pri:0, instance:ABase_Class.ANewParentClass@46cdf8bd]" started-at="2024-02-22T16:09:15 IST" name="closeConnection" finished-at="2024-02-22T16:09:17 IST" duration-ms="1330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- ABase_Class.ANewParentClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

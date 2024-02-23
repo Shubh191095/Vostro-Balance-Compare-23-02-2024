@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CustomSuite">
+  <test name="CustomTest">
+    <classes>
+      <class name="ABase_Class.ANewParentClass">
+        <methods>
+            <include name="testABLPAK"/>
+       <!-- <include name="testAUB"/>    SLOW--> 
+            <include name="testAJWB"/>
+            <include name="testBAHL"/>
+            <include name="testBPI"/>
+            <include name="testBCA"/>   
+            <include name="testBDO"/> 
+            <include name="testBRI"/> 
+            <include name="testGIBL"/> 
+            <include name="testHABIB"/> 
+            <include name="testHDFC"/> 
+            <include name="testHBTF"/> 
+            <include name="testICICI"/> 
+            <include name="testIBBL"/> 
+            <include name="testJBL"/> 
+            <include name="testMBTC"/> 
+            <include name="testMCB"/> 
+            <include name="testBNI"/> 
+            <include name="testPB"/> 
+            <include name="testPNB"/> 
+            <include name="testSAMPATH"/> 
+            <include name="testSBL"/> 
+            <include name="testSEBL"/> 
+       <!-- <include name="testSBI"/>    SLOW--> 
+            <include name="testFBL"/> 
+            <include name="testUBL"/> 
+      <!--  <include name="testBM"/>     SLOW-->      
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,215 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 12 11:39:27 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>306 seconds (306238 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testSEBL()'><b>testSEBL</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>1</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testBNI()'><b>testBNI</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>2</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testBPI()'><b>testBPI</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>2</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testPNB()'><b>testPNB</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>2</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testJBL()'><b>testJBL</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>1</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testMBTC()'><b>testMBTC</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>2</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testGIBL()'><b>testGIBL</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>26</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testABLPAK()'><b>testABLPAK</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>4</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testHBTF()'><b>testHBTF</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>13</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testSBL()'><b>testSBL</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>1</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testBM()'><b>testBM</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>1</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testICICI()'><b>testICICI</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>13</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testBCA()'><b>testBCA</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>2</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testBRI()'><b>testBRI</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>14</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testUBL()'><b>testUBL</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>1</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testAUB()'><b>testAUB</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>141</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testSAMPATH()'><b>testSAMPATH</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>2</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testBAHL()'><b>testBAHL</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>1</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testPB()'><b>testPB</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>1</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testSBI()'><b>testSBI</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>1</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testFBL()'><b>testFBL</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>1</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testAJWB()'><b>testAJWB</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>1</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testMCB()'><b>testMCB</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>1</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testHABIB()'><b>testHABIB</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>13</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testHDFC()'><b>testHDFC</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>28</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testIBBL()'><b>testIBBL</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>1</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+<tr>
+<td title='ABase_Class.ANewParentClass.testBDO()'><b>testBDO</b><br>Test class: ABase_Class.ANewParentClass</td>
+<td></td>
+<td>2</td>
+<td>ABase_Class.ANewParentClass@11392934</td></tr>
+</table><p>
+</body>
+</html>
